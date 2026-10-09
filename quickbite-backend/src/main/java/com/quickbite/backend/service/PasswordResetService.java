@@ -1,0 +1,6 @@
+package com.quickbite.backend.service;
+
+public interface PasswordResetService {
+    void forgotPassword(String email);
+    void resetPassword(String token, String newPassword);
+}
